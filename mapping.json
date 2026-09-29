@@ -1,0 +1,1 @@
+﻿{"settings":{"analysis":{"analyzer":{"francais_sans_accent":{"tokenizer":"standard","filter":["lowercase","asciifolding"]}}}},"mappings":{"properties":{"titre":{"type":"text","analyzer":"francais_sans_accent"},"realisateur":{"type":"keyword"},"annee":{"type":"integer"},"genre":{"type":"keyword"},"note":{"type":"float"}}}}
